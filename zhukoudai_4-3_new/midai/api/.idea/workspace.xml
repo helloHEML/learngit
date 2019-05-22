@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="rongke-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <option name="modules">
+      <list>
+        <option value="rongke-service" />
+        <option value="rongke-common" />
+        <option value="rongke-dao" />
+        <option value="rongke" />
+      </list>
+    </option>
+    <loaded-modules>
+      <module name="rongke-service" />
+      <module name="rongke-common" />
+      <module name="rongke-dao" />
+      <module name="rongke" />
+    </loaded-modules>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/../../../hqjk_4-24/midai/api/rongke-web/src/test/java/StatisticsOrders.java" description="public class StatisticsOrders {&#10;" line="45" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="55a6958f-37dd-4444-b302-fdf67159d027" name="Default" comment="" />
+    <ignored path="rongke.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/rongke-common/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/rongke-web/target/" />
+    <ignored path="$PROJECT_DIR$/rongke-service/target/" />
+    <ignored path="$PROJECT_DIR$/rongke-dao/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/rongke$DownloadController.coverage" NAME="DownloadController Coverage Results" MODIFIED="1537245575639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rongke.web.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rongke$midai.coverage" NAME="midai Coverage Results" MODIFIED="1542075834655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/rongke$EvaluationController.coverage" NAME="EvaluationController Coverage Results" MODIFIED="1541045034995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.rongke.web.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="rongke" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rongke.dev.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/DataReportController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8370">
+              <caret line="308" column="50" selection-start-line="308" selection-start-column="50" selection-end-line="308" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/EvaluationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40110">
+              <caret line="1386" column="34" selection-start-line="1386" selection-start-column="34" selection-end-line="1386" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/AuthenticationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/OrderSumServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="50" />
+              <folding>
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/OrderSumMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="package-info" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tianzhenMessageService.ins</find>
+      <find>/infoUpdate</find>
+      <find>验证码已使用</find>
+      <find>/financeReportPage</find>
+      <find>financeReportPage</find>
+      <find>api/channelUser</find>
+      <find>/channelUserPage</find>
+      <find>channelUser.set</find>
+      <find>login</find>
+      <find>/login</find>
+      <find>jun</find>
+      <find>手机入网年龄</find>
+      <find>userPhone.setTas</find>
+      <find>userPhone.setNet</find>
+      <find>createResultMap</find>
+      <find>netAge</find>
+      <find>收款</find>
+      <find>order.setStatus</find>
+      <find>多盈</find>
+      <find>富有支付回调信息</find>
+      <find>r</find>
+      <find>orderPay</find>
+      <find>付款回调</find>
+      <find>sssss</find>
+      <find>手机入网年龄不足</find>
+      <find>yysNetworkAge</find>
+      <find>银行卡不存在</find>
+      <find>/api/dataReport</find>
+      <find>selectListAllsCount</find>
+      <find>/TJrepaymentRate</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\ALIENWARE\Desktop\ss\midai\api</dir>
+      <dir>C:\Users\ALIENWARE\Desktop\ss\midai\api\rongke-web\src\main\java</dir>
+      <dir>C:\Users\ALIENWARE\Desktop\ss\xjd\midai\api\rongke-web\src\main\webapp\img</dir>
+      <dir>C:\Users\ALIENWARE\Desktop\ss\xjd\midai\api\rongke-web</dir>
+      <dir>C:\Users\Administrator\Desktop\sudaitong\midai\api\web</dir>
+      <dir>C:\Users\Administrator\Desktop\sudaitong\midai\api</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/quartz/CardpayTimter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/EvaluationController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/DataReportController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/yibaopay/YiBaoPayController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/DataReportMapper.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/TongDunMessageMapper.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/TongDunMessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/TongDunMessageMapper.xml" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/quartz/ReportStatistics.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserServiceDetailController.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/UserTaobaoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/UserTaobaoService.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/UserPhoneRecordService.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/UserPhoneRecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserPhoneRecordController.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserTaobaoController.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/OrderController.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/OrderMapper.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/config/ConfigsUL.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/upload/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/FileType.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/upload/FileSeeController.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/resources/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/interceptor/URLInterceptor.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/ans/utils/TcreditAPI.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/ChannelMapper.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/TongdunBackController.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/DataReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyou/utils/XMapUtil.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/ChannelController.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/model/Order.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/DataReportMapper.xml" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserController.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/resources/spring-quartz.xml" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserPhoneController.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/quartz/CardpayTimter.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/saas/RSSmsUtils.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/EvaluationController.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/AChannelUserController.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/ChannelUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/ChannelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/test/java/com/rongke/mapper/RiskDecisionServiceTest.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/utils/ConstantFactory.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyou/utils/FuYoufsUtils.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyoupay/service/imp/FuYouPayImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/test/java/com/rongke/mapper/ChannelSumMapperTest.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/modules/sys/service/imp/TianzhenMessagessServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/DataReportController.java" />
+        <option value="$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/OrderSumServiceImpl.java" />
+        <option value="$PROJECT_DIR$/rongke.dev.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issuesJava</id>
+          </State>
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Annotations verifyingGroovy</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>ArquillianJava</id>
+          </State>
+          <State>
+            <id>Assignment issuesJava</id>
+          </State>
+          <State>
+            <id>Bean Validation issues</id>
+          </State>
+          <State>
+            <id>CDI(Contexts and Dependency Injection) issues</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metricsJava</id>
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Cloning issuesJava</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Cucumber Java</id>
+          </State>
+          <State>
+            <id>Data flow issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>DeclarationGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>Encapsulation issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralCoffeeScript</id>
+          </State>
+          <State>
+            <id>GeneralJava</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Guice Inspections</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME SupportJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSF annotated elements errors</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Logging issuesJava</id>
+          </State>
+          <State>
+            <id>Memory issuesJava</id>
+          </State>
+          <State>
+            <id>Method metricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metricsJava</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventionsJava</id>
+          </State>
+          <State>
+            <id>Naming conventionsJavaScript</id>
+          </State>
+          <State>
+            <id>Naming conventionsKotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>Packaging issuesJava</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Redundant constructsKotlin</id>
+          </State>
+          <State>
+            <id>Reflective access issuesJava</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring Web FlowSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Visibility issuesJava</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>toString() issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="rongke-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="/api/user/register&#9;null&#9;null&#10;ausrEvaluation&#9;null&#9;null&#10;/api/channelUser/channelechart&#9;null&#9;null&#10;fuyouO&#9;null&#9;null&#10;fuyou&#9;FILE&#9;file://C:/Users/Administrator/Desktop/zhukoudai/midai/api/rongke-web/src/main/java/com/rongke/web/fuyoupay/service/imp/FuYouPayImpl.java&#10;channelUser&#9;PSI&#9;JAVA://com.rongke.mapper.ChannelUserMapper&#10;channel&#9;FILE&#9;file://C:/Users/Administrator/Desktop/zhukoudai/midai/api/rongke-dao/src/main/java/com/rongke/service/impl/ChannelServiceImpl.java&#10;order&#9;FILE&#9;file://C:/Users/Administrator/Desktop/zhukoudai/midai/api/rongke-dao/src/main/java/com/rongke/service/impl/OrderServiceImpl.java&#10;/api/channelUser/getFkCoun&#9;null&#9;null&#10;/api/channelUser/channelRegisteredPage&#9;null&#9;null&#10;api/repayRecord/oderUserRePa&#9;null&#9;null&#10;api/dataReport/repayPage&#9;null&#9;null&#10;api/repayRecord/oderUserRePay&#9;null&#9;null&#10;api/channelUser/channelRegisteredPage&#9;null&#9;null&#10;AdminServiceImpl&#9;PSI&#9;JAVA://com.rongke.service.impl.AdminServiceImpl&#10;car&#9;FILE&#9;file://C:/Users/Administrator/Desktop/zhukoudai/midai/api/rongke-web/src/main/java/com/rongke/web/quartz/CardpayTimter.java&#10;sms&#9;PSI&#9;JAVA://com.rongke.web.sms.SmsUtils&#10;User&#9;PSI&#9;JAVA://com.rongke.model.User&#10;api/evaluation/aEvaluationList&#9;null&#9;null&#10;fuyouCon&#9;FILE&#9;file://C:/Users/Administrator/Desktop/sudaitong/midai/api/rongke-web/src/main/java/com/rongke/web/fuyoupay/FuYouPayController.java&#10;order/selectMyOrderList&#9;null&#9;null&#10;chan&#9;FILE&#9;file://C:/Users/Administrator/Desktop/sudaitong/midai/api/rongke-dao/src/main/java/com/rongke/service/impl/ChannelServiceImpl.java&#10;DataReportMapper&#9;FILE&#9;file://C:/Users/Administrator/Desktop/sudaitong/midai/api/rongke-dao/src/main/java/com/rongke/mapper/xml/DataReportMapper.xml&#10;DataReportService&#9;FILE&#9;file://C:/Users/Administrator/Desktop/sudaitong/midai/api/rongke-dao/src/main/java/com/rongke/service/impl/DataReportServiceImpl.java&#10;api/dataReport/financeReportPage&#9;null&#9;null&#10;/api/order/orderPage&#9;null&#9;null&#10;api/user/usertaobaoBuy&#9;null&#9;null&#10;data&#9;FILE&#9;file://C:/Users/Administrator/Desktop/sudaitong/midai/api/rongke-dao/src/main/java/com/rongke/mapper/xml/DataReportMapper.xml&#10;api/dataReport/TJrepaymentRate&#9;null&#9;null&#10;channelS&#9;PSI&#9;JAVA://com.rongke.service.impl.ChannelServiceImpl&#10;/tongDunBack&#9;null&#9;null&#10;tongdun&#9;FILE&#9;file://C:/Users/Administrator/Desktop/sudaitong/midai/api/rongke-web/src/main/java/com/rongke/web/TongdunBackController.java&#10;user&#9;PSI&#9;JAVA://com.rongke.web.UserBaseMsgController&#10;RSTcreditAPI&#9;PSI&#9;JAVA://com.rongke.web.ans.utils.RSTcreditAPI&#10;Rs&#9;FILE&#9;file://C:/Users/Administrator/Desktop/diandiandai/midai/api/rongke-common/src/main/java/com/rongke/utils/RSMohe.java&#10;api/dataReport/newTJCard&#9;null&#9;null&#10;acqu&#9;PSI&#9;JAVA://com.rongke.utils.RSMohe#acquire&#10;EvaluationController.java:194&#9;FILE&#9;file://C:/Users/Administrator/Desktop/wudiqianbao/midai/api/rongke-web/src/main/java/com/rongke/web/EvaluationController.java&#10;findOrderDetails&#9;null&#9;null&#10;ind&#9;FILE&#9;file://C:/Users/Administrator/Desktop/wudiqianbao/midai/api/rongke-web/src/main/webapp/index.html&#10;admin&#9;FILE&#9;file://C:/Desktop/jisuke/midai/api/rongke-web/src/main/java/com/rongke/web/AdminController.java&#10;channelMa&#9;PSI&#9;JAVA://com.rongke.mapper.ChannelMapper&#10;mesInfoUpdate&#9;PSI&#9;JAVA://com.rongke.web.modules.sys.service.TianzhenMessageService#mesInfoUpdate&#10;channe&#9;FILE&#9;file://C:/Desktop/jisuke/midai/api/rongke-web/src/main/java/com/rongke/web/ChannelController.java&#10;api/admin/hSmsCode&#9;null&#9;null&#10;au&#9;FILE&#9;file://C:/Desktop/jisuke/midai/api/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java&#10;userBa&#9;FILE&#9;file://C:/Desktop/jisuke/midai/api/rongke-web/src/main/java/com/rongke/web/UserBaseMsgController.java&#10;api/fuyou/paymentUser&#9;null&#9;null&#10;api/fuyou/sssss&#9;null&#9;null&#10;api/fuyou/paymentCallbackSuces&#9;null&#9;null" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558426434464" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.24414062" />
+    <property name="project.structure.side.proportion" value="0.4031008" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.rongke.mapper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ALIENWARE\Desktop\ss\midai\api\rongke-common\src" />
+      <recent name="C:\Users\ALIENWARE\Desktop\ss\midai\api\rongke-web\src\main\webapp" />
+      <recent name="C:\Users\ALIENWARE\Desktop\ss\midai\api\rongke-web\src\main\resources" />
+      <recent name="C:\Users\ALIENWARE\Desktop\接收\米袋SSL证书\项目\midai\api\rongke-web\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rongke.mapper" />
+      <recent name="com.rongke.utils" />
+      <recent name="com.rongke.web.config" />
+      <recent name="com.rongke.model" />
+      <recent name="com.rongke.web.interceptor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\lihui\git\zhukoudai_4-3_new\midai\api\rongke-dao\src\main\java\com\rongke\service" />
+      <recent name="D:\lihui\git\zhukoudai_4-3_new\midai\api\rongke-dao\src\main\java\com\rongke\service\impl" />
+      <recent name="D:\lihui\git\zhukoudai_4-3_new\midai\api\rongke-dao\src\main\java\com\rongke\mapper" />
+      <recent name="D:\lihui\git\zhukoudai_4-3_new\midai\api\rongke-dao\src\main\java\com\rongke\mapper\xml" />
+      <recent name="D:\lihui\git\zhukoudai_4-3_new\midai\api\rongke-dao\src\main\java\com\rongke\model" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.rongke.web.fuyou.utils" />
+      <recent name="com.rongke.service.impl" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.midai">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="HEIGHT" value="0" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ChannelSumMapperTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rongke-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rongke.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rongke.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.rongke.mapper.ChannelSumMapperTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChannelSumMapperTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rongke-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rongke.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rongke.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.rongke.mapper.ChannelSumMapperTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChannelSumMapperTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rongke-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rongke.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rongke.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.rongke.mapper.ChannelSumMapperTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChannelSumMapperTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rongke-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rongke.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rongke.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.rongke.mapper.ChannelSumMapperTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiskDecisionServiceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rongke-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rongke.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.rongke.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.rongke.mapper.RiskDecisionServiceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rongke-web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_api" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49387" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rongke-web:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_rongke" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49387" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="midai" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://127.0.0.1:8080" />
+      <deployment>
+        <artifact name="rongke-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_rongke_3" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63140" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rongke-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.ChannelSumMapperTest.test2" />
+      <item itemvalue="JUnit.ChannelSumMapperTest.test3" />
+      <item itemvalue="JUnit.ChannelSumMapperTest.test4" />
+      <item itemvalue="JUnit.RiskDecisionServiceTest.test" />
+      <item itemvalue="JUnit.ChannelSumMapperTest.test5" />
+      <item itemvalue="Tomcat Server.midai" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChannelSumMapperTest.test5" />
+        <item itemvalue="JUnit.RiskDecisionServiceTest.test" />
+        <item itemvalue="JUnit.ChannelSumMapperTest.test4" />
+        <item itemvalue="JUnit.ChannelSumMapperTest.test3" />
+        <item itemvalue="JUnit.ChannelSumMapperTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55a6958f-37dd-4444-b302-fdf67159d027" name="Default" comment="" />
+      <created>1526526441209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526526441209</updated>
+      <workItem from="1526526443984" duration="769000" />
+      <workItem from="1526527641743" duration="4732000" />
+      <workItem from="1526532441484" duration="11173000" />
+      <workItem from="1526547410131" duration="3905000" />
+      <workItem from="1526606748912" duration="17250000" />
+      <workItem from="1526866444238" duration="20540000" />
+      <workItem from="1526952975794" duration="10160000" />
+      <workItem from="1527044444614" duration="11854000" />
+      <workItem from="1527078566511" duration="113000" />
+      <workItem from="1527124405902" duration="6581000" />
+      <workItem from="1527133057900" duration="23975000" />
+      <workItem from="1527210829986" duration="12640000" />
+      <workItem from="1527230746342" duration="3044000" />
+      <workItem from="1527236222913" duration="7684000" />
+      <workItem from="1527307021376" duration="7355000" />
+      <workItem from="1527473733479" duration="15162000" />
+      <workItem from="1527496161002" duration="7503000" />
+      <workItem from="1527556605893" duration="10960000" />
+      <workItem from="1527642888425" duration="31168000" />
+      <workItem from="1527730205751" duration="32397000" />
+      <workItem from="1528156183555" duration="15854000" />
+      <workItem from="1528248290730" duration="6593000" />
+      <workItem from="1528333528939" duration="12428000" />
+      <workItem from="1528361759207" duration="4675000" />
+      <workItem from="1528370199852" duration="596000" />
+      <workItem from="1528420187132" duration="6936000" />
+      <workItem from="1528679339867" duration="11378000" />
+      <workItem from="1528701261330" duration="3855000" />
+      <workItem from="1528765759894" duration="19169000" />
+      <workItem from="1528851764853" duration="16093000" />
+      <workItem from="1528938880460" duration="12568000" />
+      <workItem from="1528976744580" duration="216000" />
+      <workItem from="1529025154621" duration="4612000" />
+      <workItem from="1529059008820" duration="698000" />
+      <workItem from="1529370356818" duration="5203000" />
+      <workItem from="1529397574306" duration="594000" />
+      <workItem from="1529458446751" duration="15833000" />
+      <workItem from="1529543627598" duration="1606000" />
+      <workItem from="1529629335462" duration="6931000" />
+      <workItem from="1529888680477" duration="5158000" />
+      <workItem from="1529926044719" duration="1273000" />
+      <workItem from="1529974961768" duration="9647000" />
+      <workItem from="1530061420644" duration="597000" />
+      <workItem from="1530148421033" duration="1175000" />
+      <workItem from="1530180591917" duration="1165000" />
+      <workItem from="1530234611931" duration="10842000" />
+      <workItem from="1530493444806" duration="4338000" />
+      <workItem from="1530580067296" duration="15280000" />
+      <workItem from="1530666644839" duration="5518000" />
+      <workItem from="1530674239847" duration="10717000" />
+      <workItem from="1530752963234" duration="14141000" />
+      <workItem from="1530838909576" duration="2321000" />
+      <workItem from="1531185042477" duration="580000" />
+      <workItem from="1531202020450" duration="2627000" />
+      <workItem from="1531271951559" duration="5731000" />
+      <workItem from="1531357731149" duration="6906000" />
+      <workItem from="1531444305315" duration="2721000" />
+      <workItem from="1531703793674" duration="1792000" />
+      <workItem from="1531789908300" duration="590000" />
+      <workItem from="1531875696286" duration="1950000" />
+      <workItem from="1531963010992" duration="2254000" />
+      <workItem from="1531997368135" duration="676000" />
+      <workItem from="1532049715408" duration="591000" />
+      <workItem from="1532062925321" duration="4486000" />
+      <workItem from="1535447806579" duration="612000" />
+      <workItem from="1535448454265" duration="476000" />
+      <workItem from="1535449056424" duration="1951000" />
+      <workItem from="1535456152544" duration="63000" />
+      <workItem from="1535508875983" duration="596000" />
+      <workItem from="1535896149269" duration="2165000" />
+      <workItem from="1535936202822" duration="2136000" />
+      <workItem from="1536125850315" duration="399000" />
+      <workItem from="1536126271943" duration="20719000" />
+      <workItem from="1536148306744" duration="782000" />
+      <workItem from="1536195704117" duration="2072000" />
+      <workItem from="1536199388827" duration="22679000" />
+      <workItem from="1536282732591" duration="16488000" />
+      <workItem from="1536547969920" duration="24075000" />
+      <workItem from="1536627447767" duration="32478000" />
+      <workItem from="1536713946417" duration="29380000" />
+      <workItem from="1536800082747" duration="5508000" />
+      <workItem from="1536811984103" duration="22676000" />
+      <workItem from="1536887832848" duration="17697000" />
+      <workItem from="1536920996336" duration="3104000" />
+      <workItem from="1537004371298" duration="3702000" />
+      <workItem from="1537019867304" duration="116000" />
+      <workItem from="1537074971197" duration="21000" />
+      <workItem from="1537159155528" duration="2000" />
+      <workItem from="1537177072563" duration="7587000" />
+      <workItem from="1537195319781" duration="5718000" />
+      <workItem from="1537235426903" duration="9692000" />
+      <workItem from="1537245588236" duration="11149000" />
+      <workItem from="1537261075155" duration="3594000" />
+      <workItem from="1537278026983" duration="4399000" />
+      <workItem from="1537318881180" duration="7833000" />
+      <workItem from="1537336261753" duration="839000" />
+      <workItem from="1537426813061" duration="14772000" />
+      <workItem from="1537493775819" duration="4463000" />
+      <workItem from="1537511988901" duration="5336000" />
+      <workItem from="1537708028332" duration="8288000" />
+      <workItem from="1537717430276" duration="2220000" />
+      <workItem from="1537789254128" duration="597000" />
+      <workItem from="1537797005639" duration="38000" />
+      <workItem from="1537850472275" duration="2928000" />
+      <workItem from="1537864514539" duration="3093000" />
+      <workItem from="1537938017704" duration="7601000" />
+      <workItem from="1537950250253" duration="1362000" />
+      <workItem from="1537954761134" duration="13220000" />
+      <workItem from="1537978660112" duration="1144000" />
+      <workItem from="1538187510857" duration="40708000" />
+      <workItem from="1538285046072" duration="19202000" />
+      <workItem from="1538459608588" duration="6158000" />
+      <workItem from="1538532147958" duration="19888000" />
+      <workItem from="1538633868043" duration="16104000" />
+      <workItem from="1538710025825" duration="26863000" />
+      <workItem from="1538787411271" duration="34883000" />
+      <workItem from="1538874187314" duration="27918000" />
+      <workItem from="1538967089328" duration="6862000" />
+      <workItem from="1539004520432" duration="4524000" />
+      <workItem from="1539047756373" duration="19234000" />
+      <workItem from="1539090100252" duration="4716000" />
+      <workItem from="1539133178893" duration="12451000" />
+      <workItem from="1539233389549" duration="16727000" />
+      <workItem from="1539305593692" duration="22523000" />
+      <workItem from="1539392533434" duration="44994000" />
+      <workItem from="1539503353955" duration="1530000" />
+      <workItem from="1539504920239" duration="71000" />
+      <workItem from="1539565360164" duration="5423000" />
+      <workItem from="1539575611438" duration="21184000" />
+      <workItem from="1539611069712" duration="4676000" />
+      <workItem from="1539651958715" duration="30066000" />
+      <workItem from="1539697939832" duration="7165000" />
+      <workItem from="1539738599309" duration="22643000" />
+      <workItem from="1539780606873" duration="8990000" />
+      <workItem from="1539824965772" duration="32905000" />
+      <workItem from="1539872148629" duration="5457000" />
+      <workItem from="1539911233483" duration="26816000" />
+      <workItem from="1539955733547" duration="7795000" />
+      <workItem from="1539997484800" duration="25753000" />
+      <workItem from="1540039200699" duration="2013000" />
+      <workItem from="1540046589152" duration="3331000" />
+      <workItem from="1540086829821" duration="1332000" />
+      <workItem from="1540089208988" duration="4315000" />
+      <workItem from="1540131858386" duration="765000" />
+      <workItem from="1540170557476" duration="26606000" />
+      <workItem from="1540217904537" duration="462000" />
+      <workItem from="1540218637232" duration="4278000" />
+      <workItem from="1540256060634" duration="30743000" />
+      <workItem from="1540306868588" duration="5211000" />
+      <workItem from="1540312260175" duration="2220000" />
+      <workItem from="1540342905123" duration="29266000" />
+      <workItem from="1540392747870" duration="9191000" />
+      <workItem from="1540429595775" duration="27905000" />
+      <workItem from="1540476133413" duration="8476000" />
+      <workItem from="1540515933482" duration="17870000" />
+      <workItem from="1540563313575" duration="7014000" />
+      <workItem from="1540615108349" duration="9937000" />
+      <workItem from="1540709744268" duration="12270000" />
+      <workItem from="1540775199169" duration="19745000" />
+      <workItem from="1540861511156" duration="20969000" />
+      <workItem from="1540910008906" duration="2499000" />
+      <workItem from="1540954870762" duration="4806000" />
+      <workItem from="1540965945403" duration="23000" />
+      <workItem from="1540968276053" duration="1520000" />
+      <workItem from="1540976660941" duration="3050000" />
+      <workItem from="1540986882566" duration="245000" />
+      <workItem from="1541038114643" duration="8079000" />
+      <workItem from="1541051265114" duration="16846000" />
+      <workItem from="1541076248909" duration="134000" />
+      <workItem from="1541080632195" duration="37000" />
+      <workItem from="1541086730434" duration="3213000" />
+      <workItem from="1541121086454" duration="20478000" />
+      <workItem from="1541163134767" duration="2269000" />
+      <workItem from="1541172304057" duration="624000" />
+      <workItem from="1541207276323" duration="19321000" />
+      <workItem from="1541303764376" duration="111000" />
+      <workItem from="1541316895229" duration="5433000" />
+      <workItem from="1541380324256" duration="649000" />
+      <workItem from="1541385279371" duration="31853000" />
+      <workItem from="1541433152554" duration="4128000" />
+      <workItem from="1541466723877" duration="96000" />
+      <workItem from="1541466856227" duration="25719000" />
+      <workItem from="1541517492986" duration="4107000" />
+      <workItem from="1541553331219" duration="4653000" />
+      <workItem from="1541568913134" duration="19679000" />
+      <workItem from="1541600500284" duration="5630000" />
+      <workItem from="1541639519546" duration="32323000" />
+      <workItem from="1541694534309" duration="1522000" />
+      <workItem from="1541726202898" duration="5115000" />
+      <workItem from="1541754896187" duration="4840000" />
+      <workItem from="1541779342148" duration="5541000" />
+      <workItem from="1541786322564" duration="289000" />
+      <workItem from="1541830209408" duration="629000" />
+      <workItem from="1541921042288" duration="15515000" />
+      <workItem from="1541989926056" duration="14552000" />
+      <workItem from="1542032507926" duration="7850000" />
+      <workItem from="1542073591563" duration="29620000" />
+      <workItem from="1542116146581" duration="10658000" />
+      <workItem from="1542158091419" duration="34273000" />
+      <workItem from="1542198259665" duration="3033000" />
+      <workItem from="1542215993060" duration="4041000" />
+      <workItem from="1542258414655" duration="2995000" />
+      <workItem from="1542261418909" duration="22012000" />
+      <workItem from="1542296664714" duration="4694000" />
+      <workItem from="1542331791142" duration="32866000" />
+      <workItem from="1542375704303" duration="11242000" />
+      <workItem from="1542417943772" duration="31778000" />
+      <workItem from="1542456187445" duration="14091000" />
+      <workItem from="1542474141984" duration="29000" />
+      <workItem from="1542477944261" duration="83000" />
+      <workItem from="1542478048697" duration="78000" />
+      <workItem from="1542593603025" duration="8353000" />
+      <workItem from="1542858034936" duration="876000" />
+      <workItem from="1542859008766" duration="734000" />
+      <workItem from="1542862004867" duration="906000" />
+      <workItem from="1542862959582" duration="1988000" />
+      <workItem from="1542867137948" duration="8851000" />
+      <workItem from="1542898107738" duration="3559000" />
+      <workItem from="1542951710931" duration="2271000" />
+      <workItem from="1542990865846" duration="21000" />
+      <workItem from="1543200054522" duration="323000" />
+      <workItem from="1543200432204" duration="258000" />
+      <workItem from="1543289236149" duration="151000" />
+      <workItem from="1543809045726" duration="5218000" />
+      <workItem from="1544792096007" duration="292000" />
+      <workItem from="1544869796680" duration="3745000" />
+      <workItem from="1545890785856" duration="10230000" />
+      <workItem from="1545901573918" duration="3326000" />
+      <workItem from="1545916642487" duration="8333000" />
+      <workItem from="1546008884946" duration="7132000" />
+      <workItem from="1546016168350" duration="172000" />
+      <workItem from="1546016480631" duration="94000" />
+      <workItem from="1546046752173" duration="975000" />
+      <workItem from="1546497353802" duration="5086000" />
+      <workItem from="1546525217725" duration="8288000" />
+      <workItem from="1546534394546" duration="500000" />
+      <workItem from="1546565551638" duration="2576000" />
+      <workItem from="1546571041250" duration="9425000" />
+      <workItem from="1546592992081" duration="264000" />
+      <workItem from="1546593305479" duration="1622000" />
+      <workItem from="1546595299118" duration="79000" />
+      <workItem from="1546595567417" duration="9000" />
+      <workItem from="1546595610904" duration="4096000" />
+      <workItem from="1546614584565" duration="2694000" />
+      <workItem from="1546619520856" duration="1541000" />
+      <workItem from="1546652046004" duration="2395000" />
+      <workItem from="1546656582809" duration="3040000" />
+      <workItem from="1546827370904" duration="3824000" />
+      <workItem from="1547101802741" duration="709000" />
+      <workItem from="1547102629865" duration="3137000" />
+      <workItem from="1547107525607" duration="2319000" />
+      <workItem from="1547110470803" duration="1757000" />
+      <workItem from="1547113256931" duration="1070000" />
+      <workItem from="1547114439428" duration="63000" />
+      <workItem from="1547114750904" duration="356000" />
+      <workItem from="1547117257412" duration="4427000" />
+      <workItem from="1547170015384" duration="1922000" />
+      <workItem from="1547174445085" duration="3903000" />
+      <workItem from="1547800758364" duration="25366000" />
+      <workItem from="1548032705829" duration="2541000" />
+      <workItem from="1548121766047" duration="1977000" />
+      <workItem from="1548125990073" duration="12387000" />
+      <workItem from="1548163575429" duration="1789000" />
+      <workItem from="1548207942947" duration="5211000" />
+      <workItem from="1548235345291" duration="1318000" />
+      <workItem from="1548238314013" duration="11408000" />
+      <workItem from="1548320982074" duration="10270000" />
+      <workItem from="1548402085386" duration="1257000" />
+      <workItem from="1548492558779" duration="1590000" />
+      <workItem from="1548597179559" duration="2420000" />
+      <workItem from="1548646626975" duration="2214000" />
+      <workItem from="1548661422717" duration="4486000" />
+      <workItem from="1548684926366" duration="12000" />
+      <workItem from="1548742065679" duration="657000" />
+      <workItem from="1548775601675" duration="375000" />
+      <workItem from="1548837988314" duration="5405000" />
+      <workItem from="1548862990150" duration="927000" />
+      <workItem from="1548905887698" duration="7430000" />
+      <workItem from="1548944473220" duration="100000" />
+      <workItem from="1548945217990" duration="1484000" />
+      <workItem from="1548986079851" duration="6145000" />
+      <workItem from="1549001432667" duration="3441000" />
+      <workItem from="1549102971234" duration="35000" />
+      <workItem from="1549103531705" duration="1770000" />
+      <workItem from="1549105969403" duration="1705000" />
+      <workItem from="1549107810604" duration="2017000" />
+      <workItem from="1549110518622" duration="28000" />
+      <workItem from="1549358367417" duration="745000" />
+      <workItem from="1549360059392" duration="1073000" />
+      <workItem from="1549361765496" duration="3535000" />
+      <workItem from="1549371952796" duration="4000" />
+      <workItem from="1549376702041" duration="3736000" />
+      <workItem from="1549857770847" duration="14575000" />
+      <workItem from="1550044667272" duration="1548000" />
+      <workItem from="1550051977985" duration="5389000" />
+      <workItem from="1550125525837" duration="5043000" />
+      <workItem from="1550130761735" duration="7042000" />
+      <workItem from="1550194768821" duration="834000" />
+      <workItem from="1550195999685" duration="24329000" />
+      <workItem from="1550282490789" duration="9801000" />
+      <workItem from="1550293262984" duration="949000" />
+      <workItem from="1550294281622" duration="21354000" />
+      <workItem from="1550454744586" duration="41638000" />
+      <workItem from="1550543683966" duration="8155000" />
+      <workItem from="1550555191728" duration="18722000" />
+      <workItem from="1550631052661" duration="17769000" />
+      <workItem from="1550661133412" duration="4858000" />
+      <workItem from="1550737591727" duration="8171000" />
+      <workItem from="1550753423082" duration="28000" />
+      <workItem from="1550815742343" duration="1330000" />
+      <workItem from="1550820326515" duration="1967000" />
+      <workItem from="1551092850478" duration="6913000" />
+      <workItem from="1551353622924" duration="8705000" />
+      <workItem from="1551406276436" duration="7947000" />
+      <workItem from="1551681563618" duration="14057000" />
+      <workItem from="1551751845818" duration="636000" />
+      <workItem from="1551766518057" duration="95000" />
+      <workItem from="1551941592719" duration="29828000" />
+      <workItem from="1552029563268" duration="53000" />
+      <workItem from="1552101056919" duration="1230000" />
+      <workItem from="1552224472157" duration="2465000" />
+      <workItem from="1552270217017" duration="2959000" />
+      <workItem from="1552966008485" duration="27000" />
+      <workItem from="1552966132918" duration="7945000" />
+      <workItem from="1553158452017" duration="1145000" />
+      <workItem from="1553162337532" duration="2041000" />
+      <workItem from="1553225542201" duration="22174000" />
+      <workItem from="1555636442624" duration="18152000" />
+      <workItem from="1555983499008" duration="15619000" />
+      <workItem from="1556070406661" duration="11959000" />
+      <workItem from="1556100364904" duration="6113000" />
+      <workItem from="1556156769573" duration="19059000" />
+      <workItem from="1556328574551" duration="10941000" />
+      <workItem from="1556361871611" duration="690000" />
+      <workItem from="1556365645249" duration="1604000" />
+      <workItem from="1556459091298" duration="594000" />
+      <workItem from="1556502619440" duration="820000" />
+      <workItem from="1556589638545" duration="807000" />
+      <workItem from="1556603878925" duration="2722000" />
+      <workItem from="1557018472312" duration="21943000" />
+      <workItem from="1557131363737" duration="1929000" />
+      <workItem from="1557372798944" duration="5207000" />
+      <workItem from="1557450280007" duration="3285000" />
+      <workItem from="1557709497883" duration="6169000" />
+      <workItem from="1557739329928" duration="587000" />
+      <workItem from="1557795324972" duration="1961000" />
+      <workItem from="1557890460941" duration="11358000" />
+      <workItem from="1557970117158" duration="2003000" />
+      <workItem from="1557998584798" duration="1602000" />
+      <workItem from="1558001376766" duration="458000" />
+      <workItem from="1558001880146" duration="1293000" />
+      <workItem from="1558056466290" duration="3919000" />
+      <workItem from="1558314159553" duration="8464000" />
+      <workItem from="1558409668794" duration="3043000" />
+      <workItem from="1558433899975" duration="4448000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ChannelSumMapperTest_test4 - 2019.05.05 at 15h 20m 29s.xml">
+      <configuration name="ChannelSumMapperTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChannelSumMapperTest_test4 - 2019.05.05 at 15h 33m 43s.xml">
+      <configuration name="ChannelSumMapperTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChannelSumMapperTest_test4 - 2019.05.05 at 15h 51m 31s.xml">
+      <configuration name="ChannelSumMapperTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChannelSumMapperTest_test4 - 2019.05.05 at 15h 52m 06s.xml">
+      <configuration name="ChannelSumMapperTest.test4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RiskDecisionServiceTest_test - 2019.05.13 at 09h 44m 15s.xml">
+      <configuration name="RiskDecisionServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RiskDecisionServiceTest_test - 2019.05.13 at 10h 00m 46s.xml">
+      <configuration name="RiskDecisionServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RiskDecisionServiceTest_test - 2019.05.13 at 10h 03m 37s.xml">
+      <configuration name="RiskDecisionServiceTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChannelSumMapperTest_test5 - 2019.05.16 at 09h 45m 39s.xml">
+      <configuration name="ChannelSumMapperTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChannelSumMapperTest_test5 - 2019.05.16 at 09h 47m 26s.xml">
+      <configuration name="ChannelSumMapperTest.test5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChannelSumMapperTest_test5 - 2019.05.20 at 09h 08m 40s.xml">
+      <configuration name="ChannelSumMapperTest.test5" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2803910000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.21321961" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5010526" side_tool="true" weight="0.24946696" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5010526" side_tool="true" weight="0.24946696" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" x="22" y="296" width="1876" height="448" id="Run" order="2" sideWeight="0.48720682" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.48507464" weight="0.41713014" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.32915717" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51492536" side_tool="true" weight="0.33586133" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.25893825" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.15138593" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/FeedbackController.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/rongke-web/lib/PKIBASE.jar!/com/cfca/util/pki/asn1/ASN1InputStream.class</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/ans/usr/WeChatBankCardController.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/yibao/TtransferParamResolver.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/DictionaryDataController.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/DictionaryDataController.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="297" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/yibao/PaperOrder.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/PushMsgController.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/VersionController.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserController.java</url>
+          <line>1086</line>
+          <properties />
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/ansutils/RestTemplateUtils.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="699" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/BankCardController.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="763" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/ans/SnowFlake.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="771" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>324</line>
+          <properties />
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>349</line>
+          <properties />
+          <option name="timeStamp" value="779" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>368</line>
+          <properties />
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>393</line>
+          <properties />
+          <option name="timeStamp" value="781" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>435</line>
+          <properties />
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>456</line>
+          <properties />
+          <option name="timeStamp" value="783" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>483</line>
+          <properties />
+          <option name="timeStamp" value="784" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserController.java</url>
+          <line>288</line>
+          <properties />
+          <option name="timeStamp" value="805" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/alipayUtil/alipay/util/httpClient/HttpProtocolHandler.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/alipayUtil/alipay/util/httpClient/HttpProtocolHandler.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="820" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/alipayUtil/alipay/util/httpClient/HttpProtocolHandler.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="821" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/interceptor/URLInterceptor.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="825" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/config/ConfigListener.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="831" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/config/ConfigListener.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="832" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/config/ConfigListener.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/EvaluationController.java</url>
+          <line>855</line>
+          <properties />
+          <option name="timeStamp" value="902" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/AChannelUserController.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/ansutils/RestTemplateUtils.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="919" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-web/src/test/java/com/rongke/mapper/RiskDecisionServiceTest.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="920" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java</url>
+          <line>283</line>
+          <properties />
+          <option name="timeStamp" value="925" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/modules/sys/service/imp/SysOnlineServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="98" column="38" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/modules/sys/service/imp/LogSmsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="137" column="34" selection-start-line="137" selection-start-column="34" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/AChannelUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/ChannelUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="49" column="10" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/DataReportServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="232" column="50" selection-start-line="232" selection-start-column="50" selection-end-line="232" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/DataReportMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="71" column="46" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/DataReportMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7770">
+          <caret line="259" column="62" selection-start-line="259" selection-start-column="62" selection-end-line="259" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/ChannelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/ChannelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="126" column="26" lean-forward="true" selection-start-line="126" selection-start-column="26" selection-end-line="126" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/UserPhoneRecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2970">
+          <caret line="133" column="50" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/test/java/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/test/java/com/rongke/mapper/RiskDecisionServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/RSMohe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/TongdunBackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="103" column="26" lean-forward="true" selection-start-line="103" selection-start-column="26" selection-end-line="103" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/MoneyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="111" column="12" selection-start-line="111" selection-start-column="12" selection-end-line="111" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/yibaopay/YiBaoPayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1229">
+          <caret line="301" column="31" lean-forward="true" selection-start-line="301" selection-start-column="31" selection-end-line="301" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/context/request/RequestContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/RequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-support/2.1.8/mybatis-plus-support-2.1.8-sources.jar!/com/baomidou/mybatisplus/mapper/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="167" column="6" selection-start-line="167" selection-start-column="6" selection-end-line="167" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/commons/JsonCodeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_92/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1559">
+          <caret line="2593" column="22" selection-start-line="2593" selection-start-column="22" selection-end-line="2593" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/constant/FuYouConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1145#1146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/utils/ConstantFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#1673#1674#0" expanded="true" />
+            <element signature="e#1709#1710#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/ConstantServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyou/utils/FuYoufsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyou/FuYouUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="212" column="7" lean-forward="true" selection-start-line="212" selection-start-column="7" selection-end-line="212" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyoupay/FuYouPayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyoupay/service/imp/FuYouPayImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8130">
+          <caret line="297" column="13" selection-start-line="297" selection-start-column="13" selection-end-line="297" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/fuyou/entity/NewProtocolOrderXmlBeanReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2130">
+          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+          <folding>
+            <element signature="e#2649#2650#0" expanded="true" />
+            <element signature="e#2672#2673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/ans/ConvertUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/ConstantService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/java/jdk1.8.0_92/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.7.RELEASE/spring-aop-4.3.7.RELEASE-sources.jar!/org/springframework/aop/support/AopUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8580">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/RRUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/ans/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/model/TConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-common/src/main/java/com/rongke/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49140">
+          <caret line="1687" column="17" selection-start-line="1687" selection-start-column="17" selection-end-line="1687" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="84" column="63" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/quartz/CardpayTimter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="748" column="52" selection-start-line="748" selection-start-column="43" selection-end-line="748" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/modules/sys/controller/TcreditController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding>
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1190#1191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/modules/sys/service/TianzhenMessagessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/test/java/com/rongke/mapper/ChannelSumMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#3059#3060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/modules/sys/service/imp/TianzhenMessagessServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-425">
+          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/AuthenticationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/DataReportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8370">
+          <caret line="308" column="50" selection-start-line="308" selection-start-column="50" selection-end-line="308" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/EvaluationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40110">
+          <caret line="1386" column="34" selection-start-line="1386" selection-start-column="34" selection-end-line="1386" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-web/src/main/java/com/rongke/web/AuthenticationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/service/impl/OrderSumServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke-dao/src/main/java/com/rongke/mapper/xml/OrderSumMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rongke.dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>rongke-web:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4031008" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4031008" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.26160815" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.18503119" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4031008" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cn.afterturn:easypoi-annotation:3.1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4031008" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.DecisionRule;/** * @UserPhoneMapper * @Mapper * @version : Ver 1.0 */public interface DecisionRuleMapper extends BaseMapper<DecisionRule>{}

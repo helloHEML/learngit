@@ -1,0 +1,1 @@
+package com.rongke.mapper.ans;import com.rongke.model.ans.DebitRecordEntity;import com.baomidou.mybatisplus.mapper.BaseMapper;/** * @author Ans * @email 867917319@qq.com * @date 2018-08-16 18:53:30 */public interface DebitRecordDao extends BaseMapper<DebitRecordEntity> {	}

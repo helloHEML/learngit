@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.EachPicture;import java.util.List;/** * @EachPictureService * @广告Service * @version : Ver 1.0 */public interface EachPictureService extends IService<EachPicture>{    List<EachPicture> selectByCondition(EachPicture eachPicture);}

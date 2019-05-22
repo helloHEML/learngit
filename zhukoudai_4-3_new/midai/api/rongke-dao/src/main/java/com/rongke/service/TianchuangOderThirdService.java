@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Baiqishi;import com.rongke.model.TianchuangOderThird;import java.util.List;/** * @BaiqishiService * @Service * @version : Ver 1.0 */public interface TianchuangOderThirdService extends IService<TianchuangOderThird>{}

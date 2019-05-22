@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rongke.mapper.ans.WxFriendsDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.rongke.model.ans.WxFriendsEntity" id="wxFriendsMap">
+        <result property="id" column="id"/>
+        <result property="accountId" column="account_id"/>
+        <result property="targetId" column="target_id"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="status" column="status"/>
+    </resultMap>
+
+    <!-- 根据id获取好友名字于头像 -->
+    <select id="selectWxUsrFriends" parameterType="map" resultType="map">
+        select a.Account_ID as id,a.Account_Name as name,a.Account_HeadUrl as headUrl
+        from tbl_account a,wx_friends f
+        where a.Account_ID = f.target_id and f.account_id = #{accountID}
+        <if test="search !=null and search !=''">
+            AND a.Account_Name LIKE CONCAT('%',#{search},'%')
+        </if>
+        <if test="targetID !=null and targetID !=''">
+            AND f.target_id = #{targetID}
+        </if>
+        <if test="targetidIN !=null and targetidIN !=''">
+            AND f.target_id IN
+            <foreach collection="targetidIN" item="id" index="index"
+                     open="(" close=")" separator=",">
+                #{id}
+            </foreach>
+        </if>
+    </select>
+
+</mapper>

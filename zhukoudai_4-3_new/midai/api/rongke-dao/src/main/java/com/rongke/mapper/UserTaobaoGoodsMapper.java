@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.DataReport;import com.rongke.model.DataReportVo;import com.rongke.model.UserTabaoGoods;import java.util.List;import java.util.Map;/** * @DataReportMapper * @Mapper * @version : Ver 1.0 */public interface UserTaobaoGoodsMapper extends BaseMapper<UserTabaoGoods>{}

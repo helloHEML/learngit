@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Classify;import java.util.List;/** * @ClassifyService * @分类Service * @version : Ver 1.0 */public interface ClassifyService extends IService<Classify>{    List<Classify> selectByCondition(Classify classify);}

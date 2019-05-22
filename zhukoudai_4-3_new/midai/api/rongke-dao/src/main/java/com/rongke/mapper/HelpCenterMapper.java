@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.HelpCenter;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @HelpCenterMapper * @Mapper * @version : Ver 1.0 */public interface HelpCenterMapper extends BaseMapper<HelpCenter>{    List<HelpCenter>  selectByCondition(HelpCenter helpCenter);}

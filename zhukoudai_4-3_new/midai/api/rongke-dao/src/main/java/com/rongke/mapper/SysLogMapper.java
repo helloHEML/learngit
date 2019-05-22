@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.SysLogEntity;/** * 日志 */public interface SysLogMapper extends BaseMapper<SysLogEntity>{}

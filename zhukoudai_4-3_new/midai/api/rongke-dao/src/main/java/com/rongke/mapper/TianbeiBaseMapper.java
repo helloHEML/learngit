@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.TianbeiBase;/** *天贝 */public interface TianbeiBaseMapper extends BaseMapper<TianbeiBase>{}

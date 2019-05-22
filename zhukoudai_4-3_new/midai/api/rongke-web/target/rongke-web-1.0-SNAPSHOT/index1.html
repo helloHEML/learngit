@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/clipboard.js"></script>
+    <script src="/js/common.js"></script>
+
+</head>
+<body>
+
+<textarea name="text" id="text" cols="30" rows="10" readonly="readonly">fdsfasdfsdfa</textarea>
+<div class="button"><button onclick="myCopy()">点击复制</button></div>
+
+<script>
+    var a = getvl('channelName')
+    if(a != ""){
+        $("#text").val(a);
+    }
+
+    alert(a=="")
+    function myCopy(){
+        var ele = document.getElementById("text");//ele是要复制的元素的对象
+        ele.focus();
+        // ele.select();
+        ele.setSelectionRange(0, ele.value.length);
+        if(document.execCommand('copy', false, null)){
+            //success info
+            alert("复制成功")
+            $.ajax({
+                url: urlcore + "/api/download/redirect?channel="+$("#text").val(),
+                type: "get",
+                data:{},
+                dataType: 'json',
+                contentType: "application/json;charset=utf-8",
+                success:function(data){
+                    if (data.code == 0) {
+                        alert(data.data);
+                        // location.href=data.data;
+                    } else {
+                        alert(data.msg);
+                    }
+                }
+            });
+            // location.href="https://www.pgyer.com/apiv2/app/install?_api_key=693fa6f2c8275eecef1447a06e434482&appKey=786ff41fe0bc79831a41245b8f726a1f";
+        } else {
+            //fail info
+            alert("复制失败")
+        }
+    }
+
+</script>
+</body>
+
+
+</html>
+

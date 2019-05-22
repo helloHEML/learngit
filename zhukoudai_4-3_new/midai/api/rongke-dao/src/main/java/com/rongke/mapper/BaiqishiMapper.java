@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.Baiqishi;import java.util.List;/** * @BaiqishiMapper * @Mapper * @version : Ver 1.0 */public interface BaiqishiMapper extends BaseMapper<Baiqishi>{    List<Baiqishi>  selectByCondition(Baiqishi baiqishi);}

@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.DecisionField;import java.util.List;import java.util.Map;/** * @UserPhoneMapper * @Mapper * @version : Ver 1.0 */public interface DecisionFieldMapper extends BaseMapper<DecisionField>{}

@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Blacklist;/** * @BlacklistService * @黑名单库Service * @version : Ver 1.0 */public interface BlacklistService extends IService<Blacklist>{}

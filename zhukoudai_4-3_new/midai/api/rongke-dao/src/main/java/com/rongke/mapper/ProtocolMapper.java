@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.Protocol;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @ProtocolMapper * @协议Mapper * @version : Ver 1.0 */public interface ProtocolMapper extends BaseMapper<Protocol>{    List<Protocol>  selectByCondition(Protocol protocol);}

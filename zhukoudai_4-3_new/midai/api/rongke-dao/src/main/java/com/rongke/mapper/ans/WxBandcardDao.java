@@ -1,0 +1,1 @@
+package com.rongke.mapper.ans;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.ans.WxBandcardEntity;/** * 微信用户银行卡 *  * @author Ans * @email 867917319@qq.com * @date 2018-08-22 15:48:29 */public interface WxBandcardDao extends BaseMapper<WxBandcardEntity> {	}

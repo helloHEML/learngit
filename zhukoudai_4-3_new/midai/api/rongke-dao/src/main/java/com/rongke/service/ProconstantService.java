@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Proconstant;/** * 全局参数 */public interface ProconstantService extends IService<Proconstant>{    Proconstant getProconstant();}

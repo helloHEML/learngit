@@ -1,0 +1,19 @@
+{
+  "yop_public_key": [
+    {
+      "store_type": "string",
+      "cert_type": "RSA2048",
+      "value": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6p0XWjscY+gsyqKRhw9MeLsEmhFdBRhT2emOck/F1Omw38ZWhJxh9kDfs5HzFJMrVozgU+SJFDONxs8UB0wMILKRmqfLcfClG9MyCNuJkkfm0HFQv1hRGdOvZPXj3Bckuwa7FrEXBRYUhK7vJ40afumspthmse6bs6mZxNn/mALZ2X07uznOrrc2rk41Y2HftduxZw6T4EmtWuN2x4CZ8gwSyPAW5ZzZJLQ6tZDojBK4GZTAGhnn3bg5bBsBlw2+FLkCQBuDsJVsFPiGh/b6K/+zGTvWyUcu+LUj2MejYQELDO3i2vQXVDk7lVi2/TcUYefvIcssnzsfCfjaorxsuwIDAQAB"
+    }
+  ],
+  "isv_private_key": [
+      {
+        "store_type": "string",
+        "cert_type": "RSA2048",
+        "value":"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCSc1gWenw6RuEvVNURFrXuTCuFyRt40qi8CsVlt0FUcnUzLuTCX+sQgwYIRVgu3zJD1D90Mhsl/UvhW7PJxJgnTY5OZXsy/TJwyB8qVmfggE1jIjBWfCnjvpTEt9Wyw5/hmYJ/VN2xcx1agVAGCts0V784Mcip936MoAhjZTeAOoG4qECf4Ro3ZzVY4LjRLAnBdNCr7LYFp/UqKO5fEXW5tM0okXN9eLW9u6nB+e4pewQZ35IE0y+Vhspq+Z3LMg4l7snX0TdMWrVITkeU++tll8tahxV0omQObAQPTa+zVgipfG7sq8xot4xHZ+roycS3y9Shv3uak1GwRVIa5M/RAgMBAAECggEAfN7slP4LPoWBLCJhKhj7NxyrX3+CdRrp1Kw6c+g1RBPz6phpZXLzsziExDicYBrfeQZYtHKkw1eeg6D1Q2zlb12poR7WVTue7ps0N51FJR9A3O4h2Rw1e4Lcxn8ZLzut72Y85uUtwkgtFyZ7XSuUjKTk3r1UI9hrhuxNOrLrB+GNr4Zre9cSUtR2b2yCJfqjkHBQ7OzZYVeZi32zqpQgkqmTL+i8TOUHcoZmfRhtN5+cHqi9d/RlwT5D8NLji2ZLa7rigI/5mJybH7sigltKVuk9LSOuCkHJFEFIeiTNLicUanAkSjUF5ASUU0huo+QLIXxostsfvYIFRQibbDUHgQKBgQDeUmvho6KU5Womb/EtdPgSiERuRYoinKwFCSjjgy4tkooGmZLGUDeg3w6KhsCnxrMo1DQKdvaVnkLUGoSGjMncBXlcdFuzIE5wQL7xdJBFxwJVxAAZk96H5BRTX4tB6fZk84BEQCQKAQEctq93cpcwYbA3smncXUjbQtngB8jUXQKBgQCooqceXHBMwrq3THaqZCu2YCFQoykwkswYuRB3KIYaa1zizxPgpOkHRlUMKEfZ3XZwl495LyZQo95O3WHBmcRW1z1lyULkjww3RBO0se5Rt7WVJqrsRklJibHmlTzE///JvyBrWbIEL+IoWuWFjAdWQzw4s1uMJFL9RFhGjJCyBQKBgH6F55F9H7yfJx8C2/2jsL5TQKaE+s0h3p/rC5MXB8O1vslswuQLqOzrpInfkGqrITDeO1OtSj3x2FR/VuZ/3y1RDDU6nyk8/IbTwhcF4EllrYWDyw7DYYRyn8KnAEidzrS7A0dUPW5YDfr6WLegxjwpjDDWX3qiuCDYVcgyhe+dAoGAfWggQbrapKr3sdKCOOqvezv36oC74+x3LTeLICIZwFHxTJZUoO3igc9y9cyKymEgcFC1mJhQtQ14CEwoI5JXaYE9npFSVqhunDbbNLhRk6G7vsR3vafzXmWwz9pRy+rY7M5erJaShPybAgm+wFbHKgZsJXp0bT6iHMiToTtta4UCgYEA3hCzsFBN30heUIB0EO7mR8BV1LsjQJaV7gSs1JVxODfCTAttwV544wNImb9QvPY+GHVpnC4uHO6Ek4LlkwIP+xeFE+EbSObXaDUUm5dUDUxy58H/XhvJsoy+4d38uj0ej92fMO8dYJU/yw1wEF/Nw14KT612XdiB/b7Qt4R43Js="
+      }
+  ],
+
+  "default_protocol_version": "yop-auth-v2",
+  "sdk_version": "1.1.0"
+}

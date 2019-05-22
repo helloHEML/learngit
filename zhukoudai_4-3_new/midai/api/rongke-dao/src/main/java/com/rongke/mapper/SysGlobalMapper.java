@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.SysGlobal;/** * app 功能管理 */public interface SysGlobalMapper extends BaseMapper<SysGlobal>{}

@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.AdminRole;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @AdminRoleMapper * @Mapper * @version : Ver 1.0 */public interface AdminRoleMapper extends BaseMapper<AdminRole>{    List<AdminRole>  selectByCondition(AdminRole adminRole);}

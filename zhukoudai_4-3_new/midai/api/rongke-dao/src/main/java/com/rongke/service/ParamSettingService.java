@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.ParamSetting;/** * @ParamSettingService * @Service * @version : Ver 1.0 */public interface ParamSettingService extends IService<ParamSetting>{}

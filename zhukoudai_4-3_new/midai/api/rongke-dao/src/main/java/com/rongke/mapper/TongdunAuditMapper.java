@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.TongdunAudit;import com.baomidou.mybatisplus.mapper.BaseMapper;/** * @TongdunAuditMapper * @同盾贷前审核结果Mapper * @version : Ver 1.0 */public interface TongdunAuditMapper extends BaseMapper<TongdunAudit>{}

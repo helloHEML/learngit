@@ -1,0 +1,1 @@
+package com.rongke.web.modules.sys.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.TianZhenMessage;import com.rongke.utils.ans.R;/** *探针 */public interface TianzhenMessagessService extends IService<TianZhenMessage> {    R mesInfo(Long userId);    R mesInfoUpdate(Long userId);}

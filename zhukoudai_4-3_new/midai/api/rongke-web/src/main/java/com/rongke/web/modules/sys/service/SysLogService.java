@@ -1,0 +1,1 @@
+package com.rongke.web.modules.sys.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.SysLogEntity;/** * 日志 */public interface SysLogService extends IService<SysLogEntity>{}

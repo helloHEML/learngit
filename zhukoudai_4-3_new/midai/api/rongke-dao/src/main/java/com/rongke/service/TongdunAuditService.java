@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.TongdunAudit;/** * @TongdunAuditService * @同盾贷前审核结果Service * @version : Ver 1.0 */public interface TongdunAuditService extends IService<TongdunAudit>{}

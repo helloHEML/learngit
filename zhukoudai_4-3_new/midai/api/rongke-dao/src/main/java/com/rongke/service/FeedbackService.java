@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Feedback;import java.util.List;/** * @FeedbackService * @Service * @version : Ver 1.0 */public interface FeedbackService extends IService<Feedback>{    List<Feedback> selectByCondition(Feedback feedback);}

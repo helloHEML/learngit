@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.Address;import com.rongke.model.Download;import java.util.List;/** * @AddressMapper * @地址Mapper * @version : Ver 1.0 */public interface DownloadMapper extends BaseMapper<Download>{}

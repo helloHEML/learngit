@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.Feedback;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @FeedbackMapper * @Mapper * @version : Ver 1.0 */public interface FeedbackMapper extends BaseMapper<Feedback>{    List<Feedback>  selectByCondition(Feedback feedback);}

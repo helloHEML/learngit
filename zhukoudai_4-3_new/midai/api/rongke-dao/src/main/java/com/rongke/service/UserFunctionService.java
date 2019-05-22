@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.User;import com.rongke.model.UserFunction;import java.util.List;import java.util.Map;/** * 用户功能 */public interface UserFunctionService extends IService<UserFunction>{}

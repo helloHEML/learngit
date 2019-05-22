@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.TianZhenMessage;import com.rongke.utils.ans.R;/** *探针 */public interface TianzhenMessageService extends IService<TianZhenMessage> {}

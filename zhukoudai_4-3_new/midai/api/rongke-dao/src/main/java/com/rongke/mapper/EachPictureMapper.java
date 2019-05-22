@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.EachPicture;import java.util.List;/** * @EachPictureMapper * @广告Mapper * @version : Ver 1.0 */public interface EachPictureMapper extends BaseMapper<EachPicture>{    List<EachPicture>  selectByCondition(EachPicture eachPicture);}

@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.Classify;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @ClassifyMapper * @分类Mapper * @version : Ver 1.0 */public interface ClassifyMapper extends BaseMapper<Classify>{    List<Classify>  selectByCondition(Classify classify);}

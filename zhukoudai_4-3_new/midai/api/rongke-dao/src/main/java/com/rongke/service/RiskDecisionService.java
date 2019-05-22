@@ -1,0 +1,1 @@
+package com.rongke.service;import java.util.Map;/** * @UserPhoneService * @Service * @version : Ver 1.0 */public interface RiskDecisionService {    //输入时决策集， 输出是是否通过的状态和code    Map<String, String> getUserRiskStatus(Long userId);}

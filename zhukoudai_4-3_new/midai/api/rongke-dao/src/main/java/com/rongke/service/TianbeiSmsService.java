@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.TianbeiSms;import com.rongke.utils.ans.R;/** * */public interface TianbeiSmsService extends IService<TianbeiSms>{    R smsInfo(Long userId);    R smsUpdate(Long userId);}

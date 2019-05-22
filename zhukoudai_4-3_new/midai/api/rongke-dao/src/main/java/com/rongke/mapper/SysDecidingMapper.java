@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.SysDeciding;/** * app 功能管理 */public interface SysDecidingMapper extends BaseMapper<SysDeciding>{}

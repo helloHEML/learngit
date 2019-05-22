@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="xmap">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/rongke-web/lib/xmap" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/rongke-web/lib/xmap" recursive="false" />
+  </library>
+</component>

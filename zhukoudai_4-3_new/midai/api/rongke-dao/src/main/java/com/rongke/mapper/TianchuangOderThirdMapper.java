@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.AdminRolePermission;import com.rongke.model.TianchuangOderThird;import java.util.List;/** * @AdminRolePermissionMapper * @Mapper * @version : Ver 1.0 */public interface TianchuangOderThirdMapper extends BaseMapper<TianchuangOderThird>{}

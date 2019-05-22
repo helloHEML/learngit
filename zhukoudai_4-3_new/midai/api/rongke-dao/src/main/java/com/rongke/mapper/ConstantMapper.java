@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.TConstant;/** * 系统配置 */public interface ConstantMapper extends BaseMapper<TConstant>{}

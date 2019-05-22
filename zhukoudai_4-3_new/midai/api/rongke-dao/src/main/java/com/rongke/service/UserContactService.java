@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.UserContact;import java.util.List;/** * @UserContactService * @用户联系人Service * @version : Ver 1.0 */public interface UserContactService extends IService<UserContact>{    List<UserContact> selectByCondition(UserContact userContact);}

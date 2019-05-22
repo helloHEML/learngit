@@ -1,0 +1,1 @@
+package com.rongke.mapper.ans;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.ans.TblWechatuserEntity;/** * 微信用户的信息表 *  * @author Ans * @email 867917319@qq.com * @date 2018-08-16 18:53:30 */public interface TblWechatuserDao extends BaseMapper<TblWechatuserEntity> {	}

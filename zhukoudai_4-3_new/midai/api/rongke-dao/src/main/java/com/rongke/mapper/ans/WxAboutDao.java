@@ -1,0 +1,1 @@
+package com.rongke.mapper.ans;import com.rongke.model.ans.WxAboutEntity;import com.baomidou.mybatisplus.mapper.BaseMapper;/** * 微信  富文本 *  * @author Ans * @email 867917319@qq.com * @date 2018-08-22 15:48:29 */public interface WxAboutDao extends BaseMapper<WxAboutEntity> {	}

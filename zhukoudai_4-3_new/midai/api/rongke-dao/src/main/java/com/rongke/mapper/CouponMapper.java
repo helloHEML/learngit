@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.Coupon;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @CouponMapper * @优惠卷Mapper * @version : Ver 1.0 */public interface CouponMapper extends BaseMapper<Coupon>{    List<Coupon>  selectByCondition(Coupon coupon);}

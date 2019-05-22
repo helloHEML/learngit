@@ -1,0 +1,291 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 1431830528 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2627), pid=10932, tid=140626798561024
+#
+# JRE version:  (8.0_65-b17) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.65-b01 mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fe634009000):  JavaThread "Unknown thread" [_thread_in_vm, id=10933, stack(0x00007fe63a57c000,0x00007fe63a5fd000)]
+
+Stack: [0x00007fe63a57c000,0x00007fe63a5fd000],  sp=0x00007fe63a5fb370,  free space=508k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xab97ea]  VMError::report_and_die()+0x2ba
+V  [libjvm.so+0x4f9dcb]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*)+0x8b
+V  [libjvm.so+0x91a7c3]  os::Linux::commit_memory_impl(char*, unsigned long, bool)+0x103
+V  [libjvm.so+0x91ad19]  os::pd_commit_memory(char*, unsigned long, unsigned long, bool)+0x29
+V  [libjvm.so+0x91502a]  os::commit_memory(char*, unsigned long, unsigned long, bool)+0x2a
+V  [libjvm.so+0x9886d3]  PSVirtualSpace::expand_by(unsigned long)+0x53
+V  [libjvm.so+0x978817]  PSOldGen::initialize(ReservedSpace, unsigned long, char const*, int)+0xb7
+V  [libjvm.so+0x2d81ba]  AdjoiningGenerations::AdjoiningGenerations(ReservedSpace, GenerationSizer*, unsigned long)+0x39a
+V  [libjvm.so+0x93daf6]  ParallelScavengeHeap::initialize()+0x1d6
+V  [libjvm.so+0xa8218b]  Universe::initialize_heap()+0xfb
+V  [libjvm.so+0xa824fe]  universe_init()+0x3e
+V  [libjvm.so+0x6388a5]  init_globals()+0x65
+V  [libjvm.so+0xa666fe]  Threads::create_vm(JavaVMInitArgs*, bool*)+0x23e
+V  [libjvm.so+0x6ccd34]  JNI_CreateJavaVM+0x74
+C  [libjli.so+0x745e]  JavaMain+0x9e
+C  [libpthread.so.0+0x7e25]  start_thread+0xc5
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00007fe634009000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10933, stack(0x00007fe63a57c000,0x00007fe63a5fd000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 ca:01 793739                             /usr/local/jdk1.8.0_65/bin/java
+00600000-00601000 rw-p 00000000 ca:01 793739                             /usr/local/jdk1.8.0_65/bin/java
+009bc000-009dd000 rw-p 00000000 00:00 0                                  [heap]
+d5580000-100000000 rw-p 00000000 00:00 0 
+7fe62427b000-7fe624411000 rw-p 00000000 00:00 0 
+7fe624411000-7fe6246bb000 ---p 00000000 00:00 0 
+7fe6246bb000-7fe62481c000 rw-p 00000000 00:00 0 
+7fe62481c000-7fe624bd2000 ---p 00000000 00:00 0 
+7fe624bd2000-7fe624e42000 rwxp 00000000 00:00 0 
+7fe624e42000-7fe633bd2000 ---p 00000000 00:00 0 
+7fe633bd2000-7fe633bec000 r-xp 00000000 ca:01 661894                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libzip.so
+7fe633bec000-7fe633dec000 ---p 0001a000 ca:01 661894                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libzip.so
+7fe633dec000-7fe633ded000 rw-p 0001a000 ca:01 661894                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libzip.so
+7fe633ded000-7fe633df9000 r-xp 00000000 ca:01 155121                     /usr/lib64/libnss_files-2.17.so
+7fe633df9000-7fe633ff8000 ---p 0000c000 ca:01 155121                     /usr/lib64/libnss_files-2.17.so
+7fe633ff8000-7fe633ff9000 r--p 0000b000 ca:01 155121                     /usr/lib64/libnss_files-2.17.so
+7fe633ff9000-7fe633ffa000 rw-p 0000c000 ca:01 155121                     /usr/lib64/libnss_files-2.17.so
+7fe633ffa000-7fe634000000 rw-p 00000000 00:00 0 
+7fe634000000-7fe634033000 rw-p 00000000 00:00 0 
+7fe634033000-7fe638000000 ---p 00000000 00:00 0 
+7fe6380d6000-7fe638100000 r-xp 00000000 ca:01 660445                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libjava.so
+7fe638100000-7fe638300000 ---p 0002a000 ca:01 660445                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libjava.so
+7fe638300000-7fe638302000 rw-p 0002a000 ca:01 660445                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libjava.so
+7fe638302000-7fe63830f000 r-xp 00000000 ca:01 661888                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libverify.so
+7fe63830f000-7fe63850f000 ---p 0000d000 ca:01 661888                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libverify.so
+7fe63850f000-7fe638511000 rw-p 0000d000 ca:01 661888                     /usr/local/jdk1.8.0_65/jre/lib/amd64/libverify.so
+7fe638511000-7fe638518000 r-xp 00000000 ca:01 155127                     /usr/lib64/librt-2.17.so
+7fe638518000-7fe638717000 ---p 00007000 ca:01 155127                     /usr/lib64/librt-2.17.so
+7fe638717000-7fe638718000 r--p 00006000 ca:01 155127                     /usr/lib64/librt-2.17.so
+7fe638718000-7fe638719000 rw-p 00007000 ca:01 155127                     /usr/lib64/librt-2.17.so
+7fe638719000-7fe63881a000 r-xp 00000000 ca:01 155115                     /usr/lib64/libm-2.17.so
+7fe63881a000-7fe638a19000 ---p 00101000 ca:01 155115                     /usr/lib64/libm-2.17.so
+7fe638a19000-7fe638a1a000 r--p 00100000 ca:01 155115                     /usr/lib64/libm-2.17.so
+7fe638a1a000-7fe638a1b000 rw-p 00101000 ca:01 155115                     /usr/lib64/libm-2.17.so
+7fe638a1b000-7fe6396d9000 r-xp 00000000 ca:01 793654                     /usr/local/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so
+7fe6396d9000-7fe6398d8000 ---p 00cbe000 ca:01 793654                     /usr/local/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so
+7fe6398d8000-7fe6399b0000 rw-p 00cbd000 ca:01 793654                     /usr/local/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so
+7fe6399b0000-7fe6399f5000 rw-p 00000000 00:00 0 
+7fe6399f5000-7fe639bad000 r-xp 00000000 ca:01 132824                     /usr/lib64/libc-2.17.so
+7fe639bad000-7fe639dad000 ---p 001b8000 ca:01 132824                     /usr/lib64/libc-2.17.so
+7fe639dad000-7fe639db1000 r--p 001b8000 ca:01 132824                     /usr/lib64/libc-2.17.so
+7fe639db1000-7fe639db3000 rw-p 001bc000 ca:01 132824                     /usr/lib64/libc-2.17.so
+7fe639db3000-7fe639db8000 rw-p 00000000 00:00 0 
+7fe639db8000-7fe639dba000 r-xp 00000000 ca:01 155113                     /usr/lib64/libdl-2.17.so
+7fe639dba000-7fe639fba000 ---p 00002000 ca:01 155113                     /usr/lib64/libdl-2.17.so
+7fe639fba000-7fe639fbb000 r--p 00002000 ca:01 155113                     /usr/lib64/libdl-2.17.so
+7fe639fbb000-7fe639fbc000 rw-p 00003000 ca:01 155113                     /usr/lib64/libdl-2.17.so
+7fe639fbc000-7fe639fd1000 r-xp 00000000 ca:01 154655                     /usr/local/jdk1.8.0_65/lib/amd64/jli/libjli.so
+7fe639fd1000-7fe63a1d1000 ---p 00015000 ca:01 154655                     /usr/local/jdk1.8.0_65/lib/amd64/jli/libjli.so
+7fe63a1d1000-7fe63a1d2000 rw-p 00015000 ca:01 154655                     /usr/local/jdk1.8.0_65/lib/amd64/jli/libjli.so
+7fe63a1d2000-7fe63a1e9000 r-xp 00000000 ca:01 132850                     /usr/lib64/libpthread-2.17.so
+7fe63a1e9000-7fe63a3e8000 ---p 00017000 ca:01 132850                     /usr/lib64/libpthread-2.17.so
+7fe63a3e8000-7fe63a3e9000 r--p 00016000 ca:01 132850                     /usr/lib64/libpthread-2.17.so
+7fe63a3e9000-7fe63a3ea000 rw-p 00017000 ca:01 132850                     /usr/lib64/libpthread-2.17.so
+7fe63a3ea000-7fe63a3ee000 rw-p 00000000 00:00 0 
+7fe63a3ee000-7fe63a40f000 r-xp 00000000 ca:01 132817                     /usr/lib64/ld-2.17.so
+7fe63a48d000-7fe63a57c000 rw-p 00000000 00:00 0 
+7fe63a57c000-7fe63a57f000 ---p 00000000 00:00 0 
+7fe63a57f000-7fe63a602000 rw-p 00000000 00:00 0 
+7fe63a602000-7fe63a604000 rw-p 00000000 00:00 0 
+7fe63a604000-7fe63a60c000 rw-s 00000000 ca:01 672713                     /tmp/hsperfdata_root/10932
+7fe63a60c000-7fe63a60d000 rw-p 00000000 00:00 0 
+7fe63a60d000-7fe63a60e000 r--p 00000000 00:00 0 
+7fe63a60e000-7fe63a60f000 rw-p 00000000 00:00 0 
+7fe63a60f000-7fe63a610000 r--p 00021000 ca:01 132817                     /usr/lib64/ld-2.17.so
+7fe63a610000-7fe63a611000 rw-p 00022000 ca:01 132817                     /usr/lib64/ld-2.17.so
+7fe63a611000-7fe63a612000 rw-p 00000000 00:00 0 
+7ffc16140000-7ffc16161000 rw-p 00000000 00:00 0                          [stack]
+7ffc16184000-7ffc16186000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Xms2048m -Xmx2048m -Xss512k -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dignore.endorsed.dirs= -Dcatalina.base=/usr/local/apache-tomcat-8.0.50 -Dcatalina.home=/usr/local/apache-tomcat-8.0.50 -Djava.io.tmpdir=/usr/local/apache-tomcat-8.0.50/temp 
+java_command: org.apache.catalina.startup.Bootstrap stop
+java_class_path (initial): /usr/local/apache-tomcat-8.0.50/bin/bootstrap.jar:/usr/local/apache-tomcat-8.0.50/bin/tomcat-juli.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=/usr/local/jdk1.8.0_65
+CLASSPATH=/usr/local/apache-tomcat-8.0.50/bin/bootstrap.jar:/usr/local/apache-tomcat-8.0.50/bin/tomcat-juli.jar
+PATH=/usr/local/erlang/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/usr/local/jdk1.8.0_65/bin:/usr/local/rabbitmq/sbin:/root/bin
+SHELL=/bin/bash
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xaba070], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xaba070], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x917630], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x917630], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x917630], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x917630], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x918c60], sa_mask[0]=00000000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGINT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGQUIT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+
+
+---------------  S Y S T E M  ---------------
+
+OS:CentOS Linux release 7.4.1708 (Core) 
+
+uname:Linux 3.10.0-693.21.1.el7.x86_64 #1 SMP Wed Mar 7 19:03:37 UTC 2018 x86_64
+libc:glibc 2.17 NPTL 2.17 
+rlimit: STACK 8192k, CORE 0k, NPROC 100000, NOFILE 100000, AS infinity
+load average:0.00 0.01 0.05
+
+/proc/meminfo:
+MemTotal:        3880228 kB
+MemFree:          152564 kB
+MemAvailable:     695148 kB
+Buffers:          119644 kB
+Cached:           673796 kB
+SwapCached:            0 kB
+Active:          3360128 kB
+Inactive:         215984 kB
+Active(anon):    2820872 kB
+Inactive(anon):    52388 kB
+Active(file):     539256 kB
+Inactive(file):   163596 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:               112 kB
+Writeback:             0 kB
+AnonPages:       2782732 kB
+Mapped:            30248 kB
+Shmem:             90552 kB
+Slab:              99204 kB
+SReclaimable:      82816 kB
+SUnreclaim:        16388 kB
+KernelStack:        5104 kB
+PageTables:         9424 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     1940112 kB
+Committed_AS:    4739396 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       16596 kB
+VmallocChunk:   34359713532 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   1236992 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       47104 kB
+DirectMap2M:     4147200 kB
+
+
+CPU:total 2 (32 cores per cpu, 2 threads per core) family 6 model 45 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, aes, ht, tsc
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz
+stepping	: 7
+microcode	: 0x70d
+cpu MHz		: 2294.587
+cache size	: 15360 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm
+bogomips	: 4589.07
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz
+stepping	: 7
+microcode	: 0x70d
+cpu MHz		: 2294.587
+cache size	: 15360 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 cx16 sse4_1 sse4_2 popcnt aes hypervisor lahf_lm
+bogomips	: 4589.07
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 3880228k(152564k free), swap 0k(0k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.65-b01) for linux-amd64 JRE (1.8.0_65-b17), built on Oct  6 2015 17:16:12 by "java_re" with gcc 4.3.0 20080428 (Red Hat 4.3.0-8)
+
+time: Wed Aug 29 14:44:10 2018
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.Blacklist;import com.baomidou.mybatisplus.mapper.BaseMapper;/** * @BlacklistMapper * @黑名单库Mapper * @version : Ver 1.0 */public interface BlacklistMapper extends BaseMapper<Blacklist>{}

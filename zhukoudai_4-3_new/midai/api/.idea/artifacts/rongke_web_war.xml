@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rongke-web:war">
+    <output-path>$PROJECT_DIR$/rongke-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>rongke-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="rongke-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="rongke-web:war exploded" />
+    </root>
+  </artifact>
+</component>

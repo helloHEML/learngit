@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.HelpCenter;import java.util.List;/** * @HelpCenterService * @Service * @version : Ver 1.0 */public interface HelpCenterService extends IService<HelpCenter>{    List<HelpCenter> selectByCondition(HelpCenter helpCenter);}

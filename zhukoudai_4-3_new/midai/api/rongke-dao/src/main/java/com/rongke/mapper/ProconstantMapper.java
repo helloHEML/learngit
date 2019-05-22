@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.Proconstant;/** * */public interface ProconstantMapper extends BaseMapper<Proconstant>{}

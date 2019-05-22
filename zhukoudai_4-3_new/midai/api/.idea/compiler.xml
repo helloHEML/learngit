@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rongke-common" />
+        <module name="rongke-dao" />
+        <module name="rongke-service" />
+        <module name="rongke-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.7" />
+      <module name="rongke-common" target="1.7" />
+      <module name="rongke-dao" target="1.7" />
+      <module name="rongke-service" target="1.7" />
+      <module name="rongke-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+package com.rongke.mapper.ans;import com.rongke.model.ans.TblAccountEntity;import com.baomidou.mybatisplus.mapper.BaseMapper;/** * 用户信息表 *  * @author Ans * @email 867917319@qq.com * @date 2018-08-16 18:53:30 */public interface TblAccountDao extends BaseMapper<TblAccountEntity> {	}

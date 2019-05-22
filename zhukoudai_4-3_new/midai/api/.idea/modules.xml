@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/api.iml" filepath="$PROJECT_DIR$/.idea/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongke-common/rongke-common.iml" filepath="$PROJECT_DIR$/rongke-common/rongke-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongke-dao/rongke-dao.iml" filepath="$PROJECT_DIR$/rongke-dao/rongke-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongke-service/rongke-service.iml" filepath="$PROJECT_DIR$/rongke-service/rongke-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rongke-web/rongke-web.iml" filepath="$PROJECT_DIR$/rongke-web/rongke-web.iml" />
+    </modules>
+  </component>
+</project>

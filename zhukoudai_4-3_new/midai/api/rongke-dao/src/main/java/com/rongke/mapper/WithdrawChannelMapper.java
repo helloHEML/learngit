@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.WithdrawChannel;/** * @WithdrawChannelMapper * @渠道商提现记录Mapper * @version : Ver 1.0 */public interface WithdrawChannelMapper extends BaseMapper<WithdrawChannel> {}

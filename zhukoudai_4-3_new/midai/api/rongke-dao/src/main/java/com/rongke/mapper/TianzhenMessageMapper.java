@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.TianZhenMessage;/** * 探针 */public interface TianzhenMessageMapper extends BaseMapper<TianZhenMessage>{}

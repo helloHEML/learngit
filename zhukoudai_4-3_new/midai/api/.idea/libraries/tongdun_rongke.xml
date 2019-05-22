@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tongdun-rongke">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rongke-web/lib/tongdun-rongke.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

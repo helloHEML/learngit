@@ -1,0 +1,1 @@
+package com.rongke.web.modules.sys.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.SysOnline;import com.rongke.utils.ans.R;import java.util.Map;/** * 在线列表 */public interface SysOnlineService extends IService<SysOnline>{    /**     *  在线登陆     */    R online(Map<String, Object> params);    SysOnline onlineG();}

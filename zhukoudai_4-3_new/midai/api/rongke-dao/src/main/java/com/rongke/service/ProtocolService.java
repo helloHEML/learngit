@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Protocol;import java.util.List;/** * @ProtocolService * @协议Service * @version : Ver 1.0 */public interface ProtocolService extends IService<Protocol>{    List<Protocol> selectByCondition(Protocol protocol);}

@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.UserMessage;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @UserMessageMapper * @用户消息Mapper * @version : Ver 1.0 */public interface UserMessageMapper extends BaseMapper<UserMessage>{    List<UserMessage>  selectByCondition(UserMessage userMessage);}

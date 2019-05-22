@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.SysGlobal;import com.rongke.utils.ans.R;import java.util.Map;/** *  app 功能管理 */public interface SysGlobalService extends IService<SysGlobal>{}

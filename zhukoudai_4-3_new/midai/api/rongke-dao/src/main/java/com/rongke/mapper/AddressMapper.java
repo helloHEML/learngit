@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.Address;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @AddressMapper * @地址Mapper * @version : Ver 1.0 */public interface AddressMapper extends BaseMapper<Address>{    List<Address>  selectByCondition(Address address);}

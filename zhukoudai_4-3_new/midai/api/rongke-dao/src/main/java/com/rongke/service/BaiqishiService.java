@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Baiqishi;import java.util.List;/** * @BaiqishiService * @Service * @version : Ver 1.0 */public interface BaiqishiService extends IService<Baiqishi>{    List<Baiqishi> selectByCondition(Baiqishi baiqishi);}

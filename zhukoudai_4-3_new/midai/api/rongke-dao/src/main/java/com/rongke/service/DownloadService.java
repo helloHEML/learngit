@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.Address;import com.rongke.model.Download;import java.util.List;/** * @AddressService * @地址Service * @version : Ver 1.0 */public interface DownloadService extends IService<Download>{}

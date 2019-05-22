@@ -1,0 +1,81 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/Favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/Favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/Favicons/manifest.json">
+    <link rel="mask-icon" href="/Favicons/safari-pinned-tab.svg" color="#1f212f">
+    <meta name="theme-color" content="#1f212f">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8;" />
+    <meta http-equiv="cache-control" content="max-age=864000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta itemprop="name" content="" />
+    <meta itemprop="description" content="" />
+    <meta itemprop="image" content="/Favicons/favicon-96x96.png" />
+    <title>米袋</title>
+    <link rel="stylesheet" type="text/css" href="/css/midai/weui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/midai/jquery-weui.min.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/midai/yc.sby.mobile.extension.css" />
+    <link rel="stylesheet" type="text/css" href="/css/midai/index_1205.css" />
+</head>
+<body>
+<input type="hidden" id="ci" value="e122d9b6beba403e9007fa8b0b3ad73a">
+<form id="frmBindPhone" action="/mobile/phoneverification/certificationpone" method="post">
+    <div class="box-phoneverification">
+        <div class="form-group">
+            <input data-val="true" data-val-number="字段 渠道Id 必须是一个数字。" id="ChannelId" name="ChannelId" type="hidden" value="43695" />
+            <input id="Par" name="Par" type="hidden" value="7D44633121B31EC67586100AB81DDA6A" />
+            <input class="form-control" data-val="true" data-val-regex="手机号 格式错误" data-val-regex-pattern="^((\+?\d{2} )?[1-9]\d{10}(-\d{1,4})?)?$" data-val-required="请输入 手机号" id="Phone" name="Phone" placeholder="认证手机号" type="number" value="" />
+            <span class="field-validation-valid form-error" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+        </div>
+        <input data-val="true" data-val-required="请先完成智能认证" id="CaptchaCode" name="CaptchaCode" type="hidden" value="" /> <div id="MachineVerify" style="margin-top:1rem;"></div>
+        <span class="field-validation-valid form-error" data-valmsg-for="CaptchaCode" data-valmsg-replace="true"></span>
+        <div class="form-group">
+<span class="input-icon">
+<input class="form-control" data-val="true" data-val-required="请输入 短信验证码" id="VerificationCode" name="VerificationCode" placeholder="收到的验证码" type="number" value="" />
+<span class="text-primary" id="sendVerificationCode">发送验证码</span>
+</span>
+        </div>
+        <span class="field-validation-valid form-error" data-valmsg-for="VerificationCode" data-valmsg-replace="true"></span>
+        <div class="form-group" style="padding-right:0">
+            <button type="button" id="btnCertificationpone" class="weui-btn weui-btn_primary">
+                立即认证
+            </button>
+            <span class="help-block"><input type="checkbox" checked="checked" /> 认证即同意<a href="/mobile/user/agreement" style="color:#adadad;">《现金秒贷协议》</a><a href="/mobile/user/clause" style="color:#adadad;">《隐私条款》</a></span>
+        </div>
+    </div>
+</form>
+<div class="copyright">
+</div>
+<script type="text/javascript" src="/Content/Plugins/jquery/jquery-2.1.4.min.js?v=6326C600DF01E3BFB9B40E1AA08176F8"></script>
+<script type="text/javascript" src="/Content/Plugins/jquery-transit/jquery.transit.js?v=987A8E80D7E15FDA6E30BDBEB155FA6B"></script>
+<script type="text/javascript" src="/Content/Plugins/jquery-validate/jquery.validate.min.js?v=B62890C2972F5023AEBB54E827ABB5B9"></script>
+<script type="text/javascript" src="/Content/Plugins/jquery-validate/jquery.validate.unobtrusive.min.js?v=70835374534C7F599321640EF0F1C308"></script>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js?v=20181003"></script>
+<script type="text/javascript" src="/Content/Plugins/jquery-weui/swiper.min.js?v=9C67D3CADD29D0E2DA6F1271BEA55234"></script>
+<script type="text/javascript" src="/Content/Plugins/jquery-weui/jquery-weui.min.js?v=06DE2FAD58D6409DD76AEFA9C4436A75"></script>
+<script type="text/javascript" src="/Content/Plugins/fastclick/fastclick.js?v=1517C77BA117E36525FE7E92344769F6"></script>
+<script type="text/javascript" src="/Content/Plugins/cryptojs/crypto-js.js?v=DF30BAAB8E8DDD63237E2E89A4A46CBA"></script>
+<script type="text/javascript" src="/Content/Scripts/yc.sby.city.picker.js?v=7C5337E5499687C2A9F39DE61F8D03AD"></script>
+<script type="text/javascript" src="/Content/Scripts/yc.sby.jquery.validate.unobtrusive.js?v=4FD81E5C89F8DD4F209E4313B7ADF631"></script>
+<script type="text/javascript" src="/Content/Scripts/yc.sby.enum.mapping.js?v=80E307A3EBDC6B670A70D4142FCBB765"></script>
+<script type="text/javascript" src="/Content/Scripts/yc.sby.form.js?v=8612D7B1DAFDDD4A3D12DD112FF4A92B"></script>
+<script type="text/javascript" src="/Content/Scripts/yc.sby.mobile.js?v=7CEE219B779B9B182D35F938323B3BDB"></script>
+<script type="text/javascript">
+    var Environment = 'PRO';
+    var WechatParameters = 'fHx8';
+</script>
+<script src="//cstaticdun.126.net/load.min.js"></script>
+<script type="text/javascript" src="/Areas/Mobile/Content/Scripts/PhoneVerification/index.js?v=856312BA0953F6D30B86AC202B3CF1DE"></script>
+
+</body>
+</html>

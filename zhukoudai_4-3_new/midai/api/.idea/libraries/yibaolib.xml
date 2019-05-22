@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="yibaolib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/rongke-web/lib/yibaolib/yibaolib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/rongke-web/lib/yibaolib/yibaolib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/rongke-web/lib/yibaolib/yibaolib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/rongke-web/lib/yibaolib/yibaolib" recursive="false" type="SOURCES" />
+  </library>
+</component>

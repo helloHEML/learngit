@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.baomidou.mybatisplus.mapper.BaseMapper;import com.rongke.model.LogSms;public interface LogSmsMapper extends BaseMapper<LogSms>{}

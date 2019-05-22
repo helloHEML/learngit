@@ -1,0 +1,1 @@
+package com.rongke.mapper.ans;import com.rongke.model.ans.WxRecordEntity;import com.baomidou.mybatisplus.mapper.BaseMapper;/** * 微信 消费记录表 *  * @author Ans * @email 867917319@qq.com * @date 2018-08-22 15:48:29 */public interface WxRecordDao extends BaseMapper<WxRecordEntity> {	}

@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.TConstant;/** * 系统配置 */public interface ConstantService extends IService<TConstant>{    TConstant getConstant();}

@@ -1,0 +1,1 @@
+package com.rongke.service;import com.baomidou.mybatisplus.service.IService;import com.rongke.model.PhoneAddressBook;import java.util.List;/** * @PhoneAddressBookService * @手机通讯录Service * @version : Ver 1.0 */public interface PhoneAddressBookService extends IService<PhoneAddressBook>{    List<PhoneAddressBook> selectByCondition(PhoneAddressBook phoneAddressBook);}

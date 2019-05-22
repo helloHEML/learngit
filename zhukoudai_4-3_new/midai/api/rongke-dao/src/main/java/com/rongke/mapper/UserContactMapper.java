@@ -1,0 +1,1 @@
+package com.rongke.mapper;import com.rongke.model.UserContact;import com.baomidou.mybatisplus.mapper.BaseMapper;import java.util.List;/** * @UserContactMapper * @用户联系人Mapper * @version : Ver 1.0 */public interface UserContactMapper extends BaseMapper<UserContact>{    List<UserContact>  selectByCondition(UserContact userContact);}
